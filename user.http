@@ -1,0 +1,28 @@
+### Get Users
+GET http://localhost:{port}/api/users
+
+### Get User
+GET http://localhost:{port}/api/users/2
+
+### Post User
+POST http://localhost:{port}/api/users
+Content-Type: application/json
+
+{
+  "name": "{nama}",
+  "email": "{email}",
+  "phone": 457779864478
+}
+
+### Patch User
+PATCH http://localhost:{port}/api/users/3
+Content-Type: application/json
+
+{
+  "name": "{nama}",
+  "email": "{email}",
+  "phone": 57643235544
+}
+
+### Delete User
+DELETE  http://localhost:{port}/api/users/4

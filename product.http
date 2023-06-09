@@ -1,0 +1,30 @@
+### Get Products
+GET http://localhost:5000/api/products
+
+### Get Product
+GET http://localhost:5000/api/products/2
+
+### Post Product
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "name_product": "Iphone 13 Pro Max",
+  "quantity": 15,
+  "price": 350000000,
+  "userId": "{userId}"
+
+}
+
+### Patch Product
+PATCH http://localhost:5000/api/products/4
+Content-Type: application/json
+
+{
+  "name_product": "Iphone 14 Pro Max",
+  "quantity": 15,
+  "price": 400000000
+}
+
+### Delete Product
+DELETE http://localhost:5000/api/products/4
